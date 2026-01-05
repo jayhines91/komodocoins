@@ -17246,6 +17246,31 @@
     }
   },
   {
+    "coin": "VRC",
+    "name": "vericoin",
+    "fname": "Vericoin",
+    "rpcport": 58683,
+    "pubtype": 70,
+    "p2shtype": 132,
+    "wiftype": 198,
+    "txfee": 100000,
+    "isPoS": 1,
+    "segwit": true,
+    "force_min_relay_fee": true,
+    "mm2": 1,
+    "confpath": "USERHOME/.vericoin/vericoin.conf",
+    "required_confirmations": 10,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/8751'",
+    "links": {
+      "github": "https://github.com/VeriConomy/vericoin",
+      "homepage": "https://vericonomy.com"
+    }
+  },
+  {
     "coin": "BONC",
     "name": "bonkcoin",
     "fname": "Bonkcoin",
